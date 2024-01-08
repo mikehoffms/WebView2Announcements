@@ -13,4 +13,4 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         days-before-stale: 120
         days-before-close: 0
-        only-labels: 'SDK Release,Documentation,Breaking Change,SDK Deprecated'
+        any-of-labels: 'SDK Release,Documentation,Breaking Change,SDK Deprecated'
